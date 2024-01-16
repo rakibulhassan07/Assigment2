@@ -93,17 +93,18 @@ body{
     padding: 16px 70px 16px 70px;
     
 }
-.input{
+.input1{
     display:flex;
-    padding: 16px;
+    padding: 20px;
     align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    margin-left: 80px;
+    margin-left: 70px;
+    width: 980px;
    
 }
-.input input{
+.input1 input{
     color: rgba(19, 19, 24, 0.50);
     text-align: left;
     font-family: Mulish;
@@ -277,13 +278,13 @@ padding: 20px;
 
 }
 .from{
-    padding-left: 40px;
+    padding-left:40px;
     padding-top: 40px;
     border-radius: 16px;
     border: 1px solid #FF5400;
     width: 450px;
-    height: 300px;
-    margin-left: 50px;
+    height: 350px;
+    margin-left: 20px;
     margin-right: 20px;
 }
 .last-main{
@@ -456,8 +457,9 @@ margin-bottom: 10px;
         margin-left: 30px;
       
     }
-   .input{
+   .input1{
     flex-direction: column;
+    width: 250px;
    }
    .banner-design{
     width: 100%;  
