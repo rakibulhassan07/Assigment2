@@ -6,7 +6,6 @@ body{
     align-items: center;
   
 }
-
 .nav-title1{
     color: #131318;
     font-family: Mulish;
@@ -50,8 +49,99 @@ body{
 .humburger{
     display: none;
 }
-@media screen and (max-width:600px)  {
+.banner-title1{
+  text-align: center;
+  background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 550px;
+  margin: 50px 200px 0px 20px;
+  border-radius: 16px;
+}
+
+.main-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 60px;
+    font-weight: 800; 
+    padding-top: 110px;     
+}
+
+.details{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;   
+    
+}
+.banner-design{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);  
+    width: 96%;  
+}
+.orangebutton{
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 34px 16px 67px;
+}
+.input{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
    
+}
+.input input{
+    color: rgba(19, 19, 24, 0.50);
+    text-align: left;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 60px 10px 5px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none; 
+    margin-top: 5px;   
+}
+@media screen and (max-width:600px)  {
+    .banner-title1{
+        width: 95%;
+        background-position:top;
+
+     
+    }
+    .main-title{
+        padding-top: 40px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-weight: 800;    
+    }
+    .details{
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 400;
+        width: 400px;
+        margin-left: 60px;
+      
+    }
+   .input{
+    flex-direction: column;
+   }
+   .banner-design{
+    width: 100%;  
+}
     .nav-title1{
         color: #131318;
         font-family: Mulish;
