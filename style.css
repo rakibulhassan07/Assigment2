@@ -133,8 +133,120 @@ body{
 .pera-details{
    margin-right: 50px;
 }
+.banner3{
+    margin-top: 100px;
+   text-align: center;
+}
+.banner4{
+    display: flex;
+}
+.mal{
+    background-image: url('Images/Rectangle\ 5.png');
+    width: 573px;
+    height: 250px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;  
+}
+.indu{
+    background-image: url('Images/Rectangle\ 8.png');
+    width: 573px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    padding-top: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+.sri{
+    background-image: url('Images/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+    width: 374px;
+    height: 286px;
+    margin-left: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 100px;    
+}
+.nortgAmerica{
+    background-image: url('Images/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    width: 474px;
+    height: 286px;
+    margin-left: 20px;
+    padding-top: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
 
+}
+.Kashmir{
+    background-image: url('Images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    width: 274px;
+    height: 286px;
+    margin-left: 20px;
+    padding-top: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+.bangladesh{
+    background-image: url('Images/Rectangle\ 11.png');
+    background-repeat: no-repeat;
+    width: 473px;
+    height: 300px;
+    margin-left: 50px;
+    padding-top: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800; 
+}
+.Bandarban{
+    background-image: url('Images/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    width: 673px;
+    height: 300px;
+    margin-left: 20px;
+    padding-top: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800; 
+}
 @media screen and (max-width:600px) {
+    .banner4{
+        flex-direction: column;
+        
+    }
+    .mal,.indu,.Bandarban,.bangladesh,.sri{
+        margin-left: 10px;
+        width: 95%;
+        border-radius: 16px;
+        
+    }
+    ..Kashmir{
+        text-align: center;
+    }
+   
     .banner2{
         flex-direction: column;
     }
